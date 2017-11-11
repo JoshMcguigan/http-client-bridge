@@ -6,7 +6,9 @@ Back-end clients can POST to any url path, and front end clients can GET the dat
 ## Installation
 
 ```
-npm install -g https://github.com/JoshMcguigan/http-client-bridge.git
+>git clone https://github.com/JoshMcguigan/http-client-bridge.git
+>cd http-client-bridge
+>npm link
 ```
 
 ## Usage
