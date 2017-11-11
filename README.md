@@ -7,6 +7,7 @@ Back-end clients can POST to any url path, and front end clients can GET the dat
 
 ```
 >git clone https://github.com/JoshMcguigan/http-client-bridge.git
+>npm install
 >cd http-client-bridge
 >npm link
 ```
@@ -20,4 +21,11 @@ Back-end clients can POST to any url path, and front end clients can GET the dat
 ```
 // Start the server listening for GETs on port 8000, POSTs on port 3000, and serving static files from '/Users/Josh/Public'
 >http-client-bridge --getPort 8000 --postPort 3000 --staticDir '/Users/Josh/Public'
+```
+
+## Testing
+
+```
+// To run the automated integration tests
+>npm test
 ```
