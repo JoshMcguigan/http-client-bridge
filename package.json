@@ -1,0 +1,25 @@
+{
+  "name": "http-client-bridge",
+  "version": "0.0.1",
+  "description": "Bridge allowing two or more HTTP clients to communicate",
+  "preferGlobal": "true",
+  "bin": {
+    "http-client-bridge": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test.js"
+  },
+  "author": "Josh Mcguigan",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.17.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "minimist": "^1.2.0"
+  }
+}
